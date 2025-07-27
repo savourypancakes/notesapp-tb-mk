@@ -7,6 +7,12 @@ export default defineNuxtConfig({
   app: {
     baseURL: '/notesapp-tb-mk/',
   },
+  postcss: {
+    plugins: {
+      '@tailwindcss/postcss': {},
+      autoprefixer: {},
+    },
+  },
   nitro: {
     prerender: {
       crawlLinks: false,
