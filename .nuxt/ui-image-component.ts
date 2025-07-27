@@ -1,0 +1,1 @@
+export { default } from "C:/Users/kokmi/Documents/GitHub/notesapp-tb-mk/node_modules/@nuxt/image/dist/runtime/components/NuxtImg.vue";

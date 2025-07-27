@@ -5,10 +5,20 @@ export default defineNuxtConfig({
   devtools: { enabled: true },
   css: ['~/assets/css/main.css'],
   app: {
-    baseURL: 'notesapp-tb-mk',
+    baseURL: '/notesapp-tb-mk/',
+  },
+  nitro: {
+    prerender: {
+      crawlLinks: false,
+      routes: [
+        '/',
+        '/404.html',
+        '/200.html'
+      ]
+    }
   },
   vite: {
-    base: 'notesapp-tb-mk',
+    base: '/notesapp-tb-mk/',
     plugins: [
       tailwindcss(),
     ],
