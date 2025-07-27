@@ -5,10 +5,10 @@ export default defineNuxtConfig({
   devtools: { enabled: true },
   css: ['~/assets/css/main.css'],
   app: {
-    baseURL: '/notesapplication-techbodia-micko/',
+    baseURL: 'notesapp-tb-mk',
   },
   vite: {
-    base: '/notesapplication-techbodia-micko/',
+    base: 'notesapp-tb-mk',
     plugins: [
       tailwindcss(),
     ],
